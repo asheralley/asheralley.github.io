@@ -1,0 +1,25 @@
+body{
+	margin: 0 auto 0 auto 0;
+
+}
+
+/*Layout
+--------------------------*/
+
+header,
+.container,
+footer {
+	margin: auto auto;
+	width:88%;
+	max-width: 960px;
+}
+
+.logoweb{
+	margin: 0 auto;
+	display: block;
+}
+
+header{
+	background-color: #000000
+}
+
