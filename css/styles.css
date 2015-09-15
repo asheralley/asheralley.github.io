@@ -1,6 +1,6 @@
 body{
 	margin: 0 auto 0 auto 0;
-
+	/*Select font, size etc!*/
 }
 
 /*Layout
@@ -8,18 +8,51 @@ body{
 
 header,
 .container,
+.wrapper,
 footer {
 	margin: auto auto;
-	width:88%;
 	max-width: 960px;
+	border: 1px dotted black;
 }
 
 .logoweb{
 	margin: 0 auto;
 	display: block;
+	max-height: 240px;
 }
 
 header{
 	background-color: #000000
 }
 
+.banner{
+	margin: 0 auto;
+	display: block;
+	padding: 2em 0 0 0;
+}
+
+img{
+	max-width: 100%
+}
+
+.section1{
+	float: left;
+}
+
+.image1,
+.image3 {
+	float: right;
+}
+
+.section2{
+	float:right;
+}
+
+/*Slideshow
+--------------------------------*/
+
+/*Tabs
+--------------------------------*/
+
+/*Footer Image
+--------------------------------*/
